@@ -1,6 +1,6 @@
 <template>
     <el-container>
-        <el-aside width="150px">Aside</el-aside>
+        <el-aside width="10vw">Aside</el-aside>
         <el-container>
             <el-header>Header</el-header>
             <el-main>
