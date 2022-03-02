@@ -1,7 +1,7 @@
 <template>
-    <div class="action" @click="goHome">
-        <img src="../../../assets/images/logo.png" >
-        <div class="ml-2 md:opacity-100" v-show="showTitle">
+    <div class="action flex align-center" @click="goHome">
+        <img style="width:48px" src="../../../assets/images/logo.png" >
+        <div class="ml-2 truncate md:opacity-100 logo-title text-5xl font-bold" v-show="showTitle">
             {{title}}
         </div>
     </div>
@@ -28,3 +28,15 @@ const goHome = () => {
 }
 
 </script>
+
+<style scoped lang="scss">
+.action {
+    .logo-title{
+        font-size: 24px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+}
+
+</style>
